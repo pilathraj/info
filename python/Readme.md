@@ -1,0 +1,115 @@
+# 1. Basics
+```python
+#Variable Declaration
+a = "test"
+x, y, z, n = "Orange", "Banana", "Cherry", 5
+s = t = v = "Orange"
+i,f,cx = 10, 10.10, 10+10j
+# Single line command
+
+""""
+Multi
+line 
+cmd"""
+
+# array === list
+a = [1,2,3] # override
+# Unpack a list:
+b,c,d = a
+
+print(x)
+print(y, end=" ")
+print(z)
+print(n)
+print(a)
+print(b,c,d)
+print(s+t+v) #Concatenation Operator
+print(i,f,cx, end= ": ")
+print(type(i),type(f),type(cx))
+```
+## Output
+```
+Orange
+Banana Cherry
+5
+[1, 2, 3]
+1 2 3
+OrangeOrangeOrange
+10 10.1 (10+10j): <class 'int'> <class 'float'> <class 'complex'>
+```
+### Variable scoping
+```python
+x = "awesome"
+
+def myfunc():
+  global x, z
+  x = "fantastic"
+  y = "testing"
+  z = "global variable create inside a function"
+
+myfunc()
+
+print("x: " + x)
+#print("Access local variable " + y) #NameError: name 'y' is not defined
+print("z: " + z)
+#print("Access undefined variables ", xyz) #NameError: name 'xyz' is not defined
+
+```
+### output
+```
+x: fantastic
+z: global variable created inside a function
+```
+### Data types
+|Description| type| example|
+|-----------|-----|--------|
+|Text Type:|	str| s = "Pilath"  (or) S= 'raj' or MS="""Multi line string"""|
+|Numeric Types:|	int, float, complex | i,f,c = 10, 10.10, 10+10j|
+|Sequence Types:|	list, tuple, range| l, t, r =["apple", "banana", "cherry"], ("apple", "banana", "cherry"), range(1,5)|
+|Mapping Type:|	dict| x = {"name" : "John", "age" : 36}|
+|Set Types:|	set, frozenset| s, f =  {"apple", "banana", "cherry"}, frozenset({"apple", "banana", "cherry"})|
+|Boolean Type:|	bool| b =True|
+|Binary Types:|	bytes, bytearray, memoryview| b, ba, mv = b"Hello", bytearray(5), memoryview(bytes(5))|
+# 2. Strings
+## 1. Index Slice
+```python
+n = "0123456789"
+print(n) #0123456789
+print(n[1]) # 1  -> index start from Zero
+print(n[1:3]) # 12  -> Start and end-1 index, Print from 1 to 2 index 
+print(n[6:]) # 6789
+print(n[:5]) # 01234
+print(n[-5:-2]) # 567
+```
+## String function
+```python
+s = "Pilathraj"
+print(len(s)) #9
+#  Substring check
+print("raj" in s) # True
+# print array 
+for c in "cse":
+  print(c)  
+  """ 
+  output:
+  c
+  s
+  e
+  """
+print(s.upper()) # PILATHRAJ
+print(" Hello Pilathraj ".strip()) # trim the whitespace Hello Pilathraj
+print(s.count("a")) # 2 <- how many times substring print in the string s.
+print(s.find("raj")) # 6 <- retrun starting position
+print("Hello World!!!".replace("World", "Pilath")) # Hello Pilathaj!!!
+print("Hello World!!!".split(" ")) # ['Hello', 'World!!!']
+print("My name is {}, I'm {} years old".format("Mark", 45)) # My name is Mark, I'm 45 years old
+quantity = 3
+itemno = "mobile"
+price = 49.95
+myorder = "I want to pay {2} dollars for {0} pieces of item {1}."
+print(myorder.format(quantity, itemno, price)) #I want to pay 49.95 dollars for 3 pieces of item mobile.
+txt = "apple, banana, cherry"
+print(txt.split(", ", 1)) # ['apple', 'banana, cherry']
+print(txt.rsplit(", ", 1)) # ['apple, banana', 'cherry'] <- right to left
+print("50".zfill(10)) # 0000000050
+```
