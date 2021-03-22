@@ -113,3 +113,34 @@ print(txt.split(", ", 1)) # ['apple', 'banana, cherry']
 print(txt.rsplit(", ", 1)) # ['apple, banana', 'cherry'] <- right to left
 print("50".zfill(10)) # 0000000050
 ```
+# 3. Collections
+- **List** is a collection which is ordered and changeable. Allows duplicate members.
+- **Tuple** is a collection which is ordered and unchangeable. Allows duplicate members.
+- **Set** is a collection which is unordered and unindexed. No duplicate members.
+- **Dictionary** is a collection which is unordered and changeable. No duplicate members.
+## List
+```python 
+# Change the item
+list2[2] = 4
+print(list2) # [1, 2, 4]
+list2[1:] = [2,3] 
+print(list2) # [1, 2, 3]
+
+
+# Join the list
+print(list1 + list2) # ['mark', 26, 'First street', True, 1, 2, 3]
+for i in list2:
+	list3.append(i)
+print("list3", list3) # list3: [1, 2, 3]
+list1.extend(list2) # Copied items from list2 to list1 
+print(list1) # ['mark', 26, 'First street', True, 1, 2, 3]
+
+# Remove item
+list1.remove(True)
+print(list1) # ['mark', 26, 'First street', 1, 2, 3]
+list1.pop(-2) 
+print(list1) # ['mark', 26, 'First street', 1, 3]
+list3.clear() # remove all the elements
+print("list3", list3) # []
+```
+
