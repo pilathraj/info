@@ -120,12 +120,19 @@ print("50".zfill(10)) # 0000000050
 - **Dictionary** is a collection which is unordered and changeable. No duplicate members.
 ## List
 ```python 
+list1 = ['mark', 26, 'First street', True]
+list2 = [1,2,3]
+list3 = []
+list4 = list2 # copy the reference
+list5 = list2.copy() # copy the values
 # Change the item
+
 list2[2] = 4
 print(list2) # [1, 2, 4]
+print(list4) # [1,2,4]
+print(list5) # [1,2,3]
 list2[1:] = [2,3] 
 print(list2) # [1, 2, 3]
-
 
 # Join the list
 print(list1 + list2) # ['mark', 26, 'First street', True, 1, 2, 3]
@@ -143,4 +150,12 @@ print(list1) # ['mark', 26, 'First street', 1, 3]
 list3.clear() # remove all the elements
 print("list3", list3) # []
 ```
+- **List Comprehension**
+  - List comprehension offers a shorter syntax when you want to create a new list based on the values of an existing list.
+```python
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist = [x for x in fruits if "a" in x]
+print(newlist) # ['apple', 'banana', 'mango']
+```
+
 
