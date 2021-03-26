@@ -185,3 +185,9 @@ thislist = ["banana", "Orange", "Kiwi", "cherry"]
 thislist.reverse() # print same list in the reverse order
 print(thislist) # ['cherry', 'Kiwi', 'Orange', 'banana']
 ```
+## Tuples
+- Tuples are read-only ordered items.
+- Tuples are written with round brackets.
+
+```python 
+   
