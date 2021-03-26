@@ -156,6 +156,10 @@ print("list3", list3) # []
 fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
 newlist = [x for x in fruits if "a" in x]
 print(newlist) # ['apple', 'banana', 'mango']
+newlist = [x for x in fruits]
+print(newlist) # ['apple', 'banana', 'cherry', 'kiwi', 'mango']
+newlist = [x if x != "banana" else "orange" for x in fruits]
+print(newlist) #['apple', 'orange', 'cherry', 'kiwi', 'mango']
 ```
 
 
