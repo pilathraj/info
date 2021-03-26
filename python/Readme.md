@@ -190,12 +190,12 @@ print(thislist) # ['cherry', 'Kiwi', 'Orange', 'banana']
 - Tuples are written with round brackets.
 
 ```python 
-   t1 = ("abc", 34, True, 40, "male")
-   print(t1) # ('abc', 34, True, 40, 'male')
-   thistuple = ("apple",)
-print(type(thistuple)) # class tuple
+t1 = ("abc", 34, True, 40, "male")
+print(t1) # ('abc', 34, True, 40, 'male')
+thistuple = ("apple",) # comma need to add if have only one element
+print(type(thistuple)) # <class 'tuple'>
 
 #NOT a tuple
 thistuple = ("apple")
-print(type(thistuple)) # class string
+print(type(thistuple)) # <class 'str'>
  ```  
