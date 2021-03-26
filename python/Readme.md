@@ -129,10 +129,10 @@ list5 = list2.copy() # copy the values
 
 list2[2] = 4
 print(list2) # [1, 2, 4]
-print(list4) # [1,2,4]
-print(list5) # [1,2,3]
+print("list4:", list4) # [1,2,4]
+print("list5: ", list5) # [1,2,3]
 list2[1:] = [2,3] 
-print(list2) # [1, 2, 3]
+print("list2:", list2) # [1, 2, 3]
 
 # Join the list
 print(list1 + list2) # ['mark', 26, 'First street', True, 1, 2, 3]
