@@ -161,5 +161,20 @@ print(newlist) # ['apple', 'banana', 'cherry', 'kiwi', 'mango']
 newlist = [x if x != "banana" else "orange" for x in fruits]
 print(newlist) #['apple', 'orange', 'cherry', 'kiwi', 'mango']
 ```
+- **sort list**
+```python
+#Case sensitive sorting can give an unexpected result:
+thislist = ["banana", "Orange", "Kiwi", "cherry"]
+thislist.sort()
+print(thislist)
+
+thislist = ["banana", "Orange", "Kiwi", "cherry"]
+thislist.sort(key = str.lower)
+print(thislist)
+
+thislist = ["banana", "Orange", "Kiwi", "cherry"]
+thislist.reverse()
+print(thislist)
+```
 
 
