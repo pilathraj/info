@@ -41,6 +41,7 @@ docker run -p<host_port>:<container_port> -d redis  # run the image and localhos
 ### Debug Docker commands
 ```cmd
 docker logs <container_id or container name>
+docker exec -it <container_id or container name> /bin/bash/ # look inside the container cmd.
 ```
 ### Docker compose?
 ### Deploy containerized Applications
