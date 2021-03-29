@@ -33,12 +33,15 @@ docker ps # list all the running containers
 docker ps -a # list all the running/not running containers.
 docker run -d redis # run the container in detach mode
 docker stop <container_id> #  stops the container
-
-docker run -p<host_port>:<container_port> redis  # run the image and localhost port.
 docker start <container_id> # start the container
 docker run redis:4.5 # Pull the images and start the container
+
+docker run -p<host_port>:<container_port> -d redis  # run the image and localhost port.
 ```
 ### Debug Docker commands
+```cmd
+docker logs <container_id or container name>
+```
 ### Docker compose?
 ### Deploy containerized Applications
 ### Volumes - Presisting Data
