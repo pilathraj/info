@@ -10,6 +10,9 @@
 ### How is Containers work?
  - Developer and operation team work together and package the application.
  - **No server configuration** needed, except docker runtime.
+### How is Containers build?
+ - Layers of images
+ - Mostly **Linux Base image**, becasuse small size
 ### Docker vs Virtual Machine
 ### Main Docker commands
 ### Debug Docker commands
