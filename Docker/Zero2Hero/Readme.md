@@ -5,7 +5,7 @@
  - Run on own isolated environment
  - **Portable Artifact** easily shared and moved around between various team
  - Make development and deployment process more effcient.
- - Container live in the container repository.
+ - Container images available in the container repository.
 ### Docker vs Virtual Machine
 ### Main Docker commands
 ### Debug Docker commands
