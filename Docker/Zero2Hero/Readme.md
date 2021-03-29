@@ -6,6 +6,7 @@
  - **Portable Artifact** easily shared and moved around between various team
  - Make development and deployment process more effcient.
  - Container images available in the container repository.
+ - Run the same application with different version dependencies. 
 ### Docker vs Virtual Machine
 ### Main Docker commands
 ### Debug Docker commands
