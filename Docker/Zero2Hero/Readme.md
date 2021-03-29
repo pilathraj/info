@@ -21,8 +21,11 @@
   - Docker images run faster than VM.
   - VM virtualize OS Kernal & application.
 ### Difference between Container and image
-- **Container** is a running Environment for **Image**
+- **Container** is a running Environment of **Image**
 ### Container port vs Host port
+- **Multiple containers** can run on your host machine(your laptop).
+- Your laptop has only certain ports available.
+- Port mapping helps to resolve the conflict.
 ### Main Docker commands
 ```cmd
 docker images # list all the images
