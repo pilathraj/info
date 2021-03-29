@@ -7,6 +7,9 @@
  - Make development and deployment process more effcient.
  - Container images available in the container repository.
  - Run the same application with different version dependencies. 
+### How is Containers work?
+ - Developer and operation team work together and package the application.
+ - **No server configuration** needed, except docker runtime.
 ### Docker vs Virtual Machine
 ### Main Docker commands
 ### Debug Docker commands
