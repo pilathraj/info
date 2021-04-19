@@ -3,6 +3,9 @@
   cd compose
   docker-compose up -d
  ```
+ ### pg admin
+ 1. localhost:5050
+ 2. docker exec -it ae8f6b2bbe4b bash
 ### What is Postgres Sql?
   - RDBMS
   - Advanced, enterprise-class, Open source Database.
