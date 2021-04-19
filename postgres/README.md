@@ -5,7 +5,12 @@
  ```
  ### pg admin
  1. localhost:5050
- 2. docker exec -it ae8f6b2bbe4b bash
+    * Add a new server in PgAdmin:
+       - Host name/address postgres
+       - Port 5432
+       - Username as POSTGRES_USER, by default: postgres
+       - Password as POSTGRES_PASSWORD, by default changeme
+ 3. docker exec -it ae8f6b2bbe4b bash
 ### What is Postgres Sql?
   - RDBMS
   - Advanced, enterprise-class, Open source Database.
