@@ -12,7 +12,12 @@
        - Password as POSTGRES_PASSWORD, by default changeme
     * Click Database > Query Tool > Select Version() > Run
        - "PostgreSQL 13.2 (Debian 13.2-1.pgdg100+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 8.3.0-6) 8.3.0, 64-bit"
- 3. docker exec -it ae8f6b2bbe4b bash
+ 3. docker exec -it ae8f6b2bbe4b psql -U postgres
+    - Select Version();
+      *   version
+------------------------------------------------------------------------------------------------------------------
+ PostgreSQL 13.2 (Debian 13.2-1.pgdg100+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 8.3.0-6) 8.3.0, 64-bit
+(1 row)
 ### What is Postgres Sql?
   - RDBMS
   - Advanced, enterprise-class, Open source Database.
