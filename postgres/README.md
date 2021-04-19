@@ -1,5 +1,5 @@
 ## Postgres SQL
  ```
   cd compose
-  docker compose up
+  docker-compose up -d
  ```
