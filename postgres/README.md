@@ -73,4 +73,8 @@ SELECT 5 * 3;
 SELECT first_name, last_name FROM customer ORDER BY first_name ASC, last_name DESC;
 SELECT num FROM sort_demo ORDER BY num NULLS LAST;
 ```
+3. Distinct
+```psql
+SELECT DISTINCT bcolor, fcolor FROM distinct_demo ORDER BY bcolor, fcolor;
+```
 
