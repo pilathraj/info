@@ -64,5 +64,6 @@ docker exec my_postgres_1 pg_restore -U postgres -d some_database /backups/my_da
 1. Select
 ```psql
 SELECT first_name FROM customer;
+SELECT first_name || ' ' || last_name as full_name FROM customer;
 ```
 
