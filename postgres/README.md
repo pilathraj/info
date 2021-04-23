@@ -39,6 +39,14 @@
    - Tablespaces
    - Point in time recovery
    - Native Microsoft windows server version. 
+### load sample data
+- Get volumn path, look at the volume paths under the key **Destination**.
+```psql
+docker inspect -f '{{ json .Mounts }}' abc985ddffcf | python -m json.tool
+docker cp my_data.dump my_postgres_1:/backups
+docker exec my_postgres_1 pg_restore -U postgres -d some_database /backups/my_data.dump
+```
+  
 ### PSQL Commands
 - list all databases
 ```psql
