@@ -21,7 +21,7 @@
 ### What is Postgres Sql?
   - RDBMS
   - Advanced, enterprise-class, Open source Database.
-  - Support both Relational(SQL) and Non-Relational(JSON) Queryies.
+  - Support both Relational(SQL) and Non-Relational(JSON) Queries.
   - Primary database for many
      * Web application
      * Mobile Application
