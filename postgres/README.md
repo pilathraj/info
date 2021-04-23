@@ -60,3 +60,9 @@ docker exec my_postgres_1 pg_restore -U postgres -d some_database /backups/my_da
 ```psql
 \q
 ```
+### Query 
+1. Select
+```psql
+SELECT first_name FROM customer;
+```
+
