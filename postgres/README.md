@@ -67,4 +67,10 @@ SELECT first_name FROM customer;
 SELECT first_name || ' ' || last_name as full_name FROM customer;
 SELECT 5 * 3;
 ```
+2. Order by
+  - ORDER BY sort_expresssion [ASC | DESC] [NULLS FIRST | NULLS LAST]
+```psql
+SELECT first_name, last_name FROM customer ORDER BY first_name ASC, last_name DESC;
+SELECT num FROM sort_demo ORDER BY num NULLS LAST;
+```
 
