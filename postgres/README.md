@@ -77,5 +77,6 @@ SELECT num FROM sort_demo ORDER BY num NULLS LAST;
  - recommended to use order by, when used multiple columns in the distinct
 ```psql
 SELECT DISTINCT bcolor, fcolor FROM distinct_demo ORDER BY bcolor, fcolor;
+SELECT DISTINCT ON (bcolor) bicolor, color FROM distinct_demo ORDER BY bcolor,fcolor;
 ```
 
