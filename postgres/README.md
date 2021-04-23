@@ -39,3 +39,16 @@
    - Tablespaces
    - Point in time recovery
    - Native Microsoft windows server version. 
+### PSQL Commands
+- list all databases
+```psql
+ \l
+```
+- connect database
+```psql
+\c <databaseName>
+```
+- quit database connection
+```psql
+\q
+```
