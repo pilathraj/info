@@ -1,29 +1,32 @@
 package main
 
 import (
-	"fmt"
-	"time"
+    "fmt"
+    "time"
 )
 
-func producer(in chan int,  d time.Duration){
-  for {
-    in <-1
-    time.Sleep(d)
-  }
+func producer(ch chan int, d time.Duration) {
+    var i int
+    for {
+        ch <- i
+        i++
+        time.Sleep(d)
+    }
 }
 
-func outer(out chan int){
-  for {
-   fmt.Println(<-out)
-  }
+func reader(out chan int) {
+    for x := range out {
+        fmt.Println(x)
+    }
 }
 
 func main() {
-	in, out := make(chan int), make(chan int)
-	go producer(in, 100 * time.Millisecond)
-	go producer(in, 100 * time.Millisecond)
-	go outer(out)
-	for { out<- <- in}
-	
-	
+    ch := make(chan int)
+    out := make(chan int)
+    go producer(ch, 100*time.Millisecond)
+    go producer(ch, 250*time.Millisecond)
+    go reader(out)
+    for i := range ch {
+        out <- i
+    }
 }
