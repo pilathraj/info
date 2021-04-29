@@ -17,7 +17,7 @@
    - Each pod gets their own IP address
    - When Pod die, New IP address assign on re-creation
 2. **Service:**
-    - Pod's IP address might change on re-creation, to resolve IP-address changes, service component into the Picture.
+    - Pod's IP address might change on re-creation, to resolve IP-address changes, service component comes into the Picture.
     - Service is having static/permanent IP address
     - Life cycle of Pod & service is not connected, Means even pod die, Service ip address remains un-changed.
     - 2 types of services
