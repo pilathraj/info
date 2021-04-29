@@ -23,7 +23,7 @@
     - 2 types of services
         - Internal service  (ex, Database connection)
         - External service (ex,  access application on external browser)
-4. **Volumns:"** 
+4. **Volumns:** 
 5. **Ingress:**
 6. **Secreats:**
 7. **ConfigMap:**
