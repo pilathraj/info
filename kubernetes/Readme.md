@@ -10,13 +10,25 @@
 
 ### Components
 1. **Pod:**
+   - Smallest units in K8s
+   - Abstruction over the container
+   - You can only interact with kubernetes layers
+   - Usually one application in a Pod
+   - Each pod gets their own IP address
+   - When Pod die, New IP address assign on re-creation
 2. **Service:**
-3. **Volumns:"** 
-4. **Ingress:**
-5. **Secreats:**
-6. **ConfigMap:**
-7. **StateFulSet:**
-8. **Deloyment:**
+    - Pod's IP address might change on re-creation, to resolve IP-address changes, service component into the Picture.
+    - Service is having static/permanent IP address
+    - Life cycle of Pod & service is not connected, Means even pod die, Service ip address remains un-changed.
+    - 2 types of services
+        - Internal service  (ex, Database connection)
+        - External service (ex,  access application on external browser)
+4. **Volumns:"** 
+5. **Ingress:**
+6. **Secreats:**
+7. **ConfigMap:**
+8. **StateFulSet:**
+9. **Deloyment:**
 
 
 ### Install minikube
