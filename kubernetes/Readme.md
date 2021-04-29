@@ -23,12 +23,14 @@
     - 2 types of services
         - Internal service  (ex, Database connection)
         - External service (ex,  access application on external browser)
-4. **Volumns:** 
-5. **Ingress:**
-6. **Secreats:**
-7. **ConfigMap:**
-8. **StateFulSet:**
-9. **Deloyment:**
+3. **Ingress:**
+    - 192.168.2.1:8080/api ---> This url form is not good for end product, we need a https://my-app.com/api
+    - Ingress redirect a domain to exaxt service IP address and port.
+4. **Secreats:**
+5. **ConfigMap:**
+6.  **Volumns:** 
+7. **StateFulSet:**
+8. **Deloyment:**
 
 
 ### Install minikube
