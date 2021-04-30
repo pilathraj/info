@@ -82,7 +82,11 @@
     -  **Do** -Replicate a pod, Scale up / Scale down pods, in addition to that synchronize read & write operation.
     -  Deploying the DB in StateFullSet i not easy, Mostly Database deployed outside a K8s cluster in most cases.
 
-### Install minikube
+### Example:
+   - Very small cluster alteast contain 2 master node  and 3 worker nodes.
+   - Master node do less work, so it having less resources in terms of CPU, Memory and Storage.
+
+### Local setup:  Install minikube & kubectl
 **Windows > Cmd > Run Administrator**, Then
 ```cmd
 choco install minikube
@@ -91,4 +95,18 @@ minikube start
 ### minikube UI
 ```cmd
 minikube dashboard
+```
+
+### kubectl
+- kubectl get nodes - Return nodes list
+- kubectl get pod - return pods list
+- kubectl get services - return service list
+- kubectl create deployment name --image=image [--dry-run] [option]  -- Deployed pods.
+```cmd
+kubectl create deployment ngnix-depl --image=nginx
+O/P: deployment.apps/ngnix-depl created
+kubectl get deployment
+O/P:
+NAME         READY   UP-TO-DATE   AVAILABLE   AGE
+ngnix-depl   0/1     1            0           101s
 ```
