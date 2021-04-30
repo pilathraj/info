@@ -47,7 +47,7 @@
     - No.of replicates you want to specify, while deploying pod.
     - Abstract layer of pod.
     - In Practies,we mostly working on Deployment, not in pods.
-
+    - DB Can't replicated via Deployment.
 
 ### Install minikube
 **Windows > Cmd > Run Administrator**, Then
