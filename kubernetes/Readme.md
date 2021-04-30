@@ -47,10 +47,12 @@
     - Abstract layer of pod.
     - In Practies,we mostly working on Deployment, not in pods.
     - DB Can't replicated via Deployment.
+    - **Do** -Replicate a pod, Scale up / Scale down.
 9. **StateFulSet:**
     - If you replicate the DB, we need to ensure, the data read & write correctly in different pods. Else it might caused the data-inconsistency. 
     - StateFullSet Component address this issue.
     - Any statefull application or Databases need to create via StatefulSet Component, not ~Deployment~
+    -  **Do** -Replicate a pod, Scale up / Scale down pods, in addition to that synchronize read & write operation.
 
 ### Install minikube
 **Windows > Cmd > Run Administrator**, Then
