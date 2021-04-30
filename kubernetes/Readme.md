@@ -37,6 +37,7 @@
               - Cluster brain
               - Key and value pair
               - Means, the cluster changes getting stores in the key, value pair.
+              - In practice, K8s cluster made multiple cluster.
 2. **Pod:**
    - Smallest units in K8s
    - Abstruction over the container
