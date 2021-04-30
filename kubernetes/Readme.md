@@ -15,7 +15,7 @@
       1. Container runtime
       2. Kubelet
       3. 
-   - ** Worker node** actually do the work
+   - **Worker node** actually do the work
 2. **Pod:**
    - Smallest units in K8s
    - Abstruction over the container
