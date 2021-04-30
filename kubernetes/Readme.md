@@ -13,8 +13,8 @@
    - Each node has multiple pods on it
    - 3 processes must installed on every node.
       1. Container runtime
-      2. Kubelet
-      3. 
+      2. Kubelet - communication between node vs  container.
+      3. Kube Proxy - forwards the requests to service
    - **Worker node** actually do the work
 2. **Pod:**
    - Smallest units in K8s
