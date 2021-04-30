@@ -26,11 +26,18 @@
 3. **Ingress:**
     - 192.168.2.1:8080/api ---> This url form is not good for end product, we need a https://my-app.com/api
     - Ingress redirect a domain to exaxt service IP address and port.
-4. **Secreats:**
-5. **ConfigMap:**
-6.  **Volumns:** 
-7. **StateFulSet:**
-8. **Deloyment:**
+4. **ConfigMap:**
+    - Store the external configuration data.
+    - Key and value pair.
+    - Store in the plan text.
+5. **Secrets:**
+   - Similiar to ConfigMap, but store the data secure manner.
+   - base64 encoded format.   
+6. **Volumns:** 
+   -If pod contains my-app container and db container, when pod restart, all the data has been gone, even in the database.
+   - All the presistend data(DB data) or log should available, even pod is restart. It resolve use of Volumns component.
+8. **StateFulSet:**
+9. **Deloyment:**
 
 
 ### Install minikube
