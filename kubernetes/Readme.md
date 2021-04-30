@@ -9,13 +9,34 @@
  - Disaster Recovery (backup & restore)
 
 ### Basic Components
-1. **Node**
+1. **Worker Node**
    - Each node has multiple pods on it
    - 3 processes must installed on every node.
       1. Container runtime
       2. Kubelet - communication between node vs  container.
       3. Kube Proxy - forwards the requests to service
    - **Worker node** actually do the work
+2. **Master node**
+      - How to Schedule a pod?
+      - How to re-Schedule / re-start?
+      - How to monitor?
+      - Join a new node?
+      - All ^^^^ these managing process done by master node.
+      - 4 processes is running on every master node
+         1. API Server
+             -  Cluster Gateway
+             -  Client -> Some request -> API server -> Validate request -> Some other processes... -> pod
+             -  It's handle both Query and Updates
+             -  Single entry point into the Cluster, (so we'll manage scecurily) 
+          2. Scheduler 
+             - Schedule new Pod -> API server ->Scheduler (I know where to put the pod) -> start application pod on one of the worker nodes
+          3. Controller manager
+             - Detect the cluster state changes
+             - Controller manager -> Scheduler -> start new pod on the worker nodes
+          4. etcd
+              - Cluster brain
+              - Key and value pair
+              - Means, the cluster changes getting stores in the key, value pair.
 2. **Pod:**
    - Smallest units in K8s
    - Abstruction over the container
