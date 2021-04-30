@@ -20,6 +20,7 @@
     - Pod's IP address might change on re-creation, to resolve IP-address changes, service component comes into the Picture.
     - Service is having static/permanent IP address
     - Life cycle of Pod & service is not connected, Means even pod die, Service ip address remains un-changed.
+    - Service also act as a load balancer.
     - 2 types of services
         - Internal service  (ex, Database connection)
         - External service (ex,  access application on external browser)
@@ -35,7 +36,9 @@
    - base64 encoded format.   
 6. **Volumns:** 
    -If pod contains my-app container and db container, when pod restart, all the data has been gone, even in the database.
-   - All the presistend data(DB data) or log should available, even pod is restart. It resolve use of Volumns component.
+   - All the presistent data(DB data) or log should available, even pod is restart. It resolve use of Volumns component.
+   - Volumns allow you to store the data in your host machine or Remote server.
+   - K8s doesn't manage data persistance -Administrator responsibility to manage the presistance data effectivily.
 8. **StateFulSet:**
 9. **Deloyment:**
 
