@@ -96,7 +96,6 @@ minikube start
 ```cmd
 minikube dashboard
 ```
-
 ### kubectl
 - kubectl get nodes - Return nodes list
 - kubectl get pod - return pods list
@@ -109,4 +108,6 @@ kubectl get deployment
 O/P:
 NAME         READY   UP-TO-DATE   AVAILABLE   AGE
 ngnix-depl   0/1     1            0           101s
+kubectl get pod
+ngnix-depl-5b9c968f6b-xbrsk   1/1     Running   0          5m47s
 ```
