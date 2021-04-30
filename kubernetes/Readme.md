@@ -8,7 +8,7 @@
  - Scalability (High Performance)
  - Disaster Recovery (backup & restore)
 
-### Components
+### Basic Components
 1. **Node**
    - Colletion of pods running.
 2. **Pod:**
