@@ -10,7 +10,9 @@
 
 ### Basic Components
 1. **Node**
-   - Colletion of pods running.
+   - Each node has multiple pods on it
+   - 3 processes must installed on every node.
+   - 
 2. **Pod:**
    - Smallest units in K8s
    - Abstruction over the container
