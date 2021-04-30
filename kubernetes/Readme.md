@@ -12,7 +12,10 @@
 1. **Node**
    - Each node has multiple pods on it
    - 3 processes must installed on every node.
-   - 
+      1. Container runtime
+      2. Kubelet
+      3. 
+   - ** Worker node** actually do the work
 2. **Pod:**
    - Smallest units in K8s
    - Abstruction over the container
