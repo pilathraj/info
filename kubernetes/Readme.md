@@ -44,15 +44,16 @@
 8. **Deployment:**
     - blue print of pod is know as deployment.
     - No.of replicates you want to specify, while deploying pod.
-    - Abstract layer of pod.
-    - In Practies,we mostly working on Deployment, not in pods.
+    - Abstract layer of pod.   
     - DB Can't replicated via Deployment.
     - **Do** -Replicate a pod, Scale up / Scale down.
+    - In Practies,we mostly working on Deployment, not in pods.
 9. **StateFulSet:**
     - If you replicate the DB, we need to ensure, the data read & write correctly in different pods. Else it might caused the data-inconsistency. 
     - StateFullSet Component address this issue.
     - Any statefull application or Databases need to create via StatefulSet Component, not ~Deployment~
     -  **Do** -Replicate a pod, Scale up / Scale down pods, in addition to that synchronize read & write operation.
+    -  Deploying the DB in StateFullSet i not easy, Mostly Database deployed outside a K8s cluster in most cases.
 
 ### Install minikube
 **Windows > Cmd > Run Administrator**, Then
