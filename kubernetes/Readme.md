@@ -86,6 +86,11 @@
    - Very small cluster alteast contain 2 master node  and 3 worker nodes.
    - Master node do less work, so it having less resources in terms of CPU, Memory and Storage.
 
+### Layers of Abstraction
+ - Deployment manganged replicasets.
+ - Replicaset manganged a pod.
+ - Pod is the abtraction of container.
+
 ### Local setup:  Install minikube & kubectl
 **Windows > Cmd > Run Administrator**, Then
 ```cmd
