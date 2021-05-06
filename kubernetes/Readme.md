@@ -138,4 +138,83 @@ kubectl get pod
 NAME                          READY   STATUS    RESTARTS   AGE
 ngnix-depl-5b9c968f6b-xbrsk   1/1     Running   1          5d20h
 ```
+- Edit deployment
+```cmd
+kubectl edit deployment ngnix-depl 
+```
+- we get auto generated deployment file
+```yaml
+# Please edit the object below. Lines beginning with a '#' will be ignored,
+# and an empty file will abort the edit. If an error occurs while saving this file will be
+# reopened with the relevant failures.
+#
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    deployment.kubernetes.io/revision: "1"
+  creationTimestamp: "2021-04-30T12:24:26Z"
+  generation: 1
+  labels:
+    app: ngnix-depl
+  name: ngnix-depl
+  namespace: default
+  resourceVersion: "41671"
+  uid: 9006a7bb-35f1-4365-804e-69f1f77df30b
+spec:
+  progressDeadlineSeconds: 600
+  replicas: 1
+  revisionHistoryLimit: 10
+  selector:
+    matchLabels:
+      app: ngnix-depl
+  strategy:
+    rollingUpdate:
+      maxSurge: 25%
+      maxUnavailable: 25%
+    type: RollingUpdate
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: ngnix-depl
+    spec:
+      containers:
+      - image: nginx
+        imagePullPolicy: Always
+        name: nginx
+        resources: {}
+        terminationMessagePath: /dev/termination-log
+        terminationMessagePolicy: File
+      dnsPolicy: ClusterFirst
+      restartPolicy: Always
+      schedulerName: default-scheduler
+      securityContext: {}
+      terminationGracePeriodSeconds: 30
+status:
+  availableReplicas: 1
+  conditions:
+  - lastTransitionTime: "2021-04-30T12:24:26Z"
+    lastUpdateTime: "2021-04-30T12:28:42Z"
+    message: ReplicaSet "ngnix-depl-5b9c968f6b" has successfully progressed.
+    reason: NewReplicaSetAvailable
+    status: "True"
+    type: Progressing
+  - lastTransitionTime: "2021-05-06T08:52:54Z"
+    lastUpdateTime: "2021-05-06T08:52:54Z"
+    message: Deployment has minimum availability.
+    reason: MinimumReplicasAvailable
+    status: "True"
+    type: Available
+  observedGeneration: 1
+  readyReplicas: 1
+  replicas: 1
+  updatedReplicas: 1
+```
+-- set image: nginx:1.16 and save the file. Then run
+```cmd
+kubectl get pod
+NAME                          READY   STATUS        RESTARTS   AGE
+ngnix-depl-5b9c968f6b-xbrsk   1/1     Terminating   1          5d21h
+ngnix-depl-5fff49f8bb-vvh72   1/1     Running       0          50s
 ```
