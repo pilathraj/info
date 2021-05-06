@@ -218,3 +218,7 @@ NAME                          READY   STATUS        RESTARTS   AGE
 ngnix-depl-5b9c968f6b-xbrsk   1/1     Terminating   1          5d21h
 ngnix-depl-5fff49f8bb-vvh72   1/1     Running       0          50s
 ```
+- kubectl logs <pod-name>
+```cmd
+ kubectl logs ngnix-depl-5fff49f8bb-vvh72
+ ```
