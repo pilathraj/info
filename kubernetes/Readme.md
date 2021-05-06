@@ -115,6 +115,16 @@ minikube dashboard
 - kubectl get pod - return pods list
 - kubectl get services - return service list
 - kubectl create deployment name --image=image [--dry-run] [option]  -- Deployed pods.
+
+**CRUD commands:**
+ - kubectl create deployment [name]
+ - kubectl edit deployment [name]
+ - kubectl delete deployment [name]
+**Status of different K8s components**
+ - kubectl get nodes | pod | services | replicaset | deployment
+**Debugging pod**
+ - Kubectl logs [pod name]
+
 ```cmd
 kubectl create deployment ngnix-depl --image=nginx
 O/P: deployment.apps/ngnix-depl created
