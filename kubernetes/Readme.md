@@ -300,3 +300,7 @@ Events:
 ```cmd
  kubectl exec -it mongo-dpl-7675b8cd4c-2jfnb -- bin/bash
  ```
+ - delete the deployment
+ ```cmd
+ kubectl delete deployment mongo-dpl
+ ```
