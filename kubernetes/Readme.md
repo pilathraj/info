@@ -222,3 +222,64 @@ ngnix-depl-5fff49f8bb-vvh72   1/1     Running       0          50s
 ```cmd
  kubectl logs ngnix-depl-5fff49f8bb-vvh72
  ```
+- Describe pod
+```cmd
+   kubectl create deployment mongo-dpl --image=mongo
+   kebectl get pod
+ ```
+ O/P:
+ ```cmd
+ NAME                          READY   STATUS              RESTARTS   AGE
+mongo-dpl-7675b8cd4c-2jfnb    0/1     ContainerCreating   0          13s
+ngnix-depl-5fff49f8bb-vvh72   1/1     Running             0          65m
+```
+```cmd
+ kubectl describe pod mongo-dpl-7675b8cd4c-2jfnb
+ O/P:
+ Name:           mongo-dpl-7675b8cd4c-2jfnb
+Namespace:      default
+Priority:       0
+Node:           minikube/192.168.49.2
+Start Time:     Thu, 06 May 2021 16:30:41 +0530
+Labels:         app=mongo-dpl
+                pod-template-hash=7675b8cd4c
+Annotations:    <none>
+Status:         Pending
+IP:
+IPs:            <none>
+Controlled By:  ReplicaSet/mongo-dpl-7675b8cd4c
+Containers:
+  mongo:
+    Container ID:
+    Image:          mongo
+    Image ID:
+    Port:           <none>
+    Host Port:      <none>
+    State:          Waiting
+      Reason:       ContainerCreating
+    Ready:          False
+    Restart Count:  0
+    Environment:    <none>
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from default-token-zgmd5 (ro)
+Conditions:
+  Type              Status
+  Initialized       True
+  Ready             False
+  ContainersReady   False
+  PodScheduled      True
+Volumes:
+  default-token-zgmd5:
+    Type:        Secret (a volume populated by a Secret)
+    SecretName:  default-token-zgmd5
+    Optional:    false
+QoS Class:       BestEffort
+Node-Selectors:  <none>
+Tolerations:     node.kubernetes.io/not-ready:NoExecute op=Exists for 300s
+                 node.kubernetes.io/unreachable:NoExecute op=Exists for 300s
+Events:
+  Type    Reason     Age   From               Message
+  ----    ------     ----  ----               -------
+  Normal  Scheduled  46s   default-scheduler  Successfully assigned default/mongo-dpl-7675b8cd4c-2jfnb to minikube
+  Normal  Pulling    45s   kubelet            Pulling image "mongo"
+```
