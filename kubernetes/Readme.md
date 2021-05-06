@@ -296,3 +296,7 @@ Events:
   Normal  Created    5m25s  kubelet            Created container mongo
   Normal  Started    5m25s  kubelet            Started container mongo
  ```
+- Run interactive mode
+```cmd
+ kubectl exec -it mongo-dpl-7675b8cd4c-2jfnb -- bin/bash
+ ```
