@@ -304,3 +304,7 @@ Events:
  ```cmd
  kubectl delete deployment mongo-dpl
  ```
+ - **Apply** create via config file.
+ ```cmd
+ kubectl apply -f config-file.yaml 
+ ```
