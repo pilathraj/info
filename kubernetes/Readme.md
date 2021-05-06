@@ -285,6 +285,8 @@ Events:
 ```
 - run the same comments again, you may get output:
 ```cmd
+ ....
+ ....
  Events:
   Type    Reason     Age    From               Message
   ----    ------     ----   ----               -------
