@@ -12,11 +12,10 @@ spec:
   template:
     metadata:
      labels:
-        app: ngnix-depl
+        app: ngnix
     spec:
       containers:
       - name: nginx
         image: nginx:1.16
         ports:
           - containerPort: 80
-      
