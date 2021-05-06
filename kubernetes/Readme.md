@@ -111,3 +111,17 @@ ngnix-depl   0/1     1            0           101s
 kubectl get pod
 ngnix-depl-5b9c968f6b-xbrsk   1/1     Running   0          5m47s
 ```
+- Replicaset is automatically created, you can check it
+```cmd
+kubectl get replicaset
+o/p:
+NAME                    DESIRED   CURRENT   READY   AGE
+ngnix-depl-5b9c968f6b   1         1         1       5d20h
+```
+- Get pod
+```cmd
+kubectl get pod
+NAME                          READY   STATUS    RESTARTS   AGE
+ngnix-depl-5b9c968f6b-xbrsk   1/1     Running   1          5d20h
+```
+```
