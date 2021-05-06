@@ -88,8 +88,17 @@
 
 ### Layers of Abstraction
  - Deployment manganged replicasets.
+           |||
+           vvv
  - Replicaset manganged a pod.
+           |||
+           vvv
  - Pod is the abtraction of container.
+           |||
+           vvv
+ - Container.
+ - ** Everything below the deployment automatically managed by kubernetes.
+
 
 ### Local setup:  Install minikube & kubectl
 **Windows > Cmd > Run Administrator**, Then
