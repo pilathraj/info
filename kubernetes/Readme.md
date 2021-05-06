@@ -283,3 +283,14 @@ Events:
   Normal  Scheduled  46s   default-scheduler  Successfully assigned default/mongo-dpl-7675b8cd4c-2jfnb to minikube
   Normal  Pulling    45s   kubelet            Pulling image "mongo"
 ```
+- run the same comments again, you may get output:
+```cmd
+ Events:
+  Type    Reason     Age    From               Message
+  ----    ------     ----   ----               -------
+  Normal  Scheduled  6m23s  default-scheduler  Successfully assigned default/mongo-dpl-7675b8cd4c-2jfnb to minikube
+  Normal  Pulling    6m23s  kubelet            Pulling image "mongo"
+  Normal  Pulled     5m25s  kubelet            Successfully pulled image "mongo" in 57.8312863s
+  Normal  Created    5m25s  kubelet            Created container mongo
+  Normal  Started    5m25s  kubelet            Started container mongo
+ ```
