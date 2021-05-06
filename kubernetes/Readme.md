@@ -97,7 +97,7 @@
            |||
            vvv
  - Container.
- - ** Everything below the deployment automatically managed by kubernetes.
+ - **Everything below the deployment automatically managed by kubernetes.**
 
 
 ### Local setup:  Install minikube & kubectl
