@@ -122,6 +122,7 @@ minikube dashboard
    * kubectl delete deployment [name]
 - **Status of different K8s components**
    * kubectl get nodes | pod | services | replicaset | deployment
+   * kubectl get nodes | pod | services | replicaset | deployment -o wide (**get more output**, like expose ip address)
 - **Debugging pod**
    * log into console: kubectl logs [pod name]
    * Get interactive terminal: kubectl exec -it [pod name] -- bin/bash
