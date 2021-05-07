@@ -324,3 +324,7 @@ Events:
  ```cmd
  kubectl apply -f config-file.yaml 
  ```
+ - get updated deployment configuration in yaml file.
+ ```cmd
+ kubectl get deployment -o config-file.yaml
+ ```
