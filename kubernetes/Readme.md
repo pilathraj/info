@@ -326,5 +326,5 @@ Events:
  ```
  - get updated deployment configuration in yaml file.
  ```cmd
- kubectl get deployment -o config-file.yaml
+ kubectl get deployment -o yaml > config-file.yaml
  ```
