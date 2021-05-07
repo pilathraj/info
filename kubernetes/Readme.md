@@ -123,7 +123,12 @@ minikube dashboard
 - **Status of different K8s components**
    * kubectl get nodes | pod | services | replicaset | deployment
 - **Debugging pod**
-   * Kubectl logs [pod name]
+   * log into console: kubectl logs [pod name]
+   * Get interactive terminal: kubectl exec -it [pod name] -- bin/bash
+   * Get pod information: kubectl describe pod [pod name]
+ - **CRUD via configuration file**
+    * create/update use apply cmd:  kubectl apply -f [file name]
+    * delete cmd: kubectl delete -f [file name]
 
 ```cmd
 kubectl create deployment ngnix-depl --image=nginx
