@@ -163,6 +163,15 @@ print(newlist) #['apple', 'orange', 'cherry', 'kiwi', 'mango']
 print([x**2 for x in range(10)]) #[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
 print([x*y for x in [1,2,3] for y in [3,4,5]]) #[3, 4, 5, 6, 8, 10, 9, 12, 15]
 print([x*y for x in [1,2,3] for y in [3,4,5] if x!=y]) #[3, 4, 5, 6, 8, 10, 12, 15]
+matrix = [
+     [1, 2, 3, 4],
+     [5, 6, 7, 8],
+     [9, 10, 11, 12],
+]
+# print transposed array
+print([[row[i] for row in matrix] for i in range(4)]) #[[1, 5, 9], [2, 6, 10], [3, 7, 11], [4, 8, 12]]
+#or
+print(list(zip(*matrix)))
 ```
 - **Sort list**
 ```python
