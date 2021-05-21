@@ -207,7 +207,12 @@ print(t1) # ('abc', 34, True, 40, 'male')
 thistuple = ("apple",) # comma need to add if have only one element
 print(type(thistuple)) # <class 'tuple'>
 
+ t = 12345, 54321, 'hello!'
+ print(t) #( 12345, 54321, 'hello!)
+ t1 = "single",
+ print(t1) #('single',)
+
 #NOT a tuple
 thistuple = ("apple")
 print(type(thistuple)) # <class 'str'>
- ```  
+```  
