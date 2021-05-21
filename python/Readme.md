@@ -216,3 +216,18 @@ print(type(thistuple)) # <class 'tuple'>
 thistuple = ("apple")
 print(type(thistuple)) # <class 'str'>
 ```  
+## Sets
+- Unordered collection
+- duplicates not allowed
+- create a set using set() or {}.
+- create an empty set use set().
+```python
+basket = {'apple', 'orange', 'apple', 'pear', 'orange', 'banana'}
+print(basket) # {'banana', 'pear', 'orange', 'apple'}
+```
+- set Comprehension also support, similar to list
+```python
+a = {x for x in 'abracadabra' if x not in 'abc'}
+print(a) # {'d', 'r'}
+```
+
