@@ -230,4 +230,17 @@ print(basket) # {'banana', 'pear', 'orange', 'apple'}
 a = {x for x in 'abracadabra' if x not in 'abc'}
 print(a) # {'d', 'r'}
 ```
+## Dictionaries
+ - Key and value pair.
+ - Key may be string or number.
+ - Create dictionnay using {} or dict()
+ ```python
+ d = {'a': 4098, 'b': 4139, 'c':"C"}
+d['d'] ="testing"
+print(d) # {'a': 4098, 'b': 4139, 'c': 'C', 'd': 'testing'}
+del d["b"]
+print(d) #{'a': 4098, 'c': 'C', 'd': 'testing'}
+print(list(d)) # ['a', 'c', 'd'] -- Show keys on list
+print(dict([('a', 1), ('b', '2'), ('c', 3)])) #{'a': 1, 'b': '2', 'c': 3}
+```
 
