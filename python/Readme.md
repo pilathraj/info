@@ -243,5 +243,7 @@ print(d) #{'a': 4098, 'c': 'C', 'd': 'testing'}
 print(list(d)) # ['a', 'c', 'd'] -- Show keys on list
 print(dict([('a', 1), ('b', '2'), ('c', 3)])) #{'a': 1, 'b': '2', 'c': 3}
 print(dict(a="A", b=22)) #{'a': 'A', 'b': 22}
+for k, v in d.items():
+ print(k, ":", v)
 ```
 
