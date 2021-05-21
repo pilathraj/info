@@ -160,6 +160,9 @@ newlist = [x for x in fruits]
 print(newlist) # ['apple', 'banana', 'cherry', 'kiwi', 'mango']
 newlist = [x if x != "banana" else "orange" for x in fruits]
 print(newlist) #['apple', 'orange', 'cherry', 'kiwi', 'mango']
+print([x**2 for x in range(10)]) #[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+print([x*y for x in [1,2,3] for y in [3,4,5]]) #[3, 4, 5, 6, 8, 10, 9, 12, 15]
+print([x*y for x in [1,2,3] for y in [3,4,5] if x!=y]) #[3, 4, 5, 6, 8, 10, 12, 15]
 ```
 - **Sort list**
 ```python
