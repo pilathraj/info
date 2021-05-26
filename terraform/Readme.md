@@ -11,3 +11,10 @@ resource "provider_<resource_type>" "name"{
 }
 
 ```
+```
+terraform -v  ===> return version number
+terraform init  ==> initialize terraform project
+terraform plan
+terraform apply
+terraform destroy
+```
