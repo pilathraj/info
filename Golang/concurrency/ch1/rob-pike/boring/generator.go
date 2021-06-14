@@ -17,7 +17,7 @@ func boring(s string) <- chan string {
 
 func main() {
 	fmt.Println("Hello, playground")
-	c := boring("boring")
+	c := boring("boring") // boring function return the channel.
 	fmt.Println(c, len(c))
 	for i:=0; i<5; i++{
 	  fmt.Println(<-c)
