@@ -7,14 +7,14 @@ php bin/magento setup:install --base-url=http://localhost/magento24/ --db-host=l
 ```cmd
 php bin/magento maintenance:disable
 ```
--- **Change the base url**
+- **Change the base url**
 ```cmd
 php bin/magento setup:store-config:set --base-url="http://localhost:8080/"
 # for secure-base-url
 php bin/magento setup:store-config:set --base-url-secure="https://localhost:8080/"
 # call clear cache
 ```
--**clear cache**
+- **clear cache**
 ```cmd
 php bin/magento cache:flush
 ```
