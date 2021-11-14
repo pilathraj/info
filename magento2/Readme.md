@@ -13,6 +13,7 @@ php bin/magento setup:store-config:set --base-url="http://localhost:8080/"
 # for secure-base-url
 php bin/magento setup:store-config:set --base-url-secure="https://localhost:8080/"
 # call clear cache
+# rm -rf var/cache var/generation var/page_cache  
 ```
 - **clear cache**
 ```cmd
