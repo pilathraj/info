@@ -19,4 +19,8 @@ php bin/magento setup:store-config:set --base-url-secure="https://localhost:8080
 ```cmd
 php bin/magento cache:flush
 ```
+- **Update static content**
+```cmd
+php bin/magento setup:static-content:deploy
+```
 
