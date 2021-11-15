@@ -23,4 +23,7 @@ php bin/magento cache:flush
 ```cmd
 php bin/magento setup:static-content:deploy
 ```
+- **Blank page issue**
+  - https://meetanshi.com/blog/solved-magento-2-2-7-and-2-3-admin-page-blank-issue/
+  - Path lib/internal/Magento path.
 
