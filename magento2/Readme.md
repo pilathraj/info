@@ -27,3 +27,7 @@ php bin/magento setup:static-content:deploy
   - https://meetanshi.com/blog/solved-magento-2-2-7-and-2-3-admin-page-blank-issue/
   - Path lib/internal/Magento path.
 
+- **CSS not loaded**
+  - php bin/magento setup:static-content:deploy
+  -   php bin/magento indexer:reindex
+  -   rm -rf var/cache
