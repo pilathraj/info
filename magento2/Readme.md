@@ -31,3 +31,6 @@ php bin/magento setup:static-content:deploy
   - php bin/magento setup:static-content:deploy
   -   php bin/magento indexer:reindex
   -   rm -rf var/cache
+- **Change mode**
+- bin/magento deploy:mode:set developer
+- rm -rf var/cache generated/metadata generated/code var/view_preprocessed pub/static
