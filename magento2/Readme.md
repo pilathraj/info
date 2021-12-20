@@ -34,3 +34,14 @@ php bin/magento setup:static-content:deploy
 - **Change mode**
 - bin/magento deploy:mode:set developer
 - rm -rf var/cache generated/metadata generated/code var/view_preprocessed pub/static
+
+- **Notice: Undefined offset: 2 in vendor\magento\framework\Encryption\Encryptor.php**
+- Usually, it happens when you get a database from another environment with the different PHP version, and admin user has been created there. E.g. you have PHP 7.1 and the admin user has been created with PHP 7.2. Just create the user in your environment or switch to the same PHP version.
+- php bin/magento admin:user:create --admin-user=admin --admin-password=admin123 \
+  --admin-email=admin@mymail.com --admin-firstname=admin --admin-lastname=admin
+- **Reset User pwd**
+- SET @email='emailaddress@example.com', @passwd='test@123', @salt=MD5(RAND());
+```sql UPDATE customer_entity
+    SET password_hash = CONCAT(SHA2(CONCAT(@salt, @passwd), 256), ':', @salt, ':1')
+    WHERE email = @email;
+ ```
