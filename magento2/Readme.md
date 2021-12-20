@@ -40,8 +40,9 @@ php bin/magento setup:static-content:deploy
 - php bin/magento admin:user:create --admin-user=admin --admin-password=admin123 \
   --admin-email=admin@mymail.com --admin-firstname=admin --admin-lastname=admin
 - **Reset User pwd**
-- SET @email='emailaddress@example.com', @passwd='test@123', @salt=MD5(RAND());
-```sql UPDATE customer_entity
+```sql 
+SET @email='emailaddress@example.com', @passwd='test@123', @salt=MD5(RAND());
+UPDATE customer_entity
     SET password_hash = CONCAT(SHA2(CONCAT(@salt, @passwd), 256), ':', @salt, ':1')
     WHERE email = @email;
  ```
