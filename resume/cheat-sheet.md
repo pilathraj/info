@@ -11,7 +11,7 @@
 - [ ] Are you using action word
 - [ ] Measuring everything in terms of impact, don't just descripe your responsiability
 - [ ] Technical knowledge/skills should include
-- [ ] Include only sections/items thay are impressive
+- [ ] Include only sections/items thay are impressive like Technical, experience, Projects, Education.
 - [ ] No Typos or bad grammar
 
 - Web: https://www.resumemaker.online/
