@@ -9,7 +9,7 @@
 - [ ] Remove the word "I"
 - [ ] No buzzwords describing how great you are
 - [ ] Are you using action word
-- [ ] Measuring everything in terms of impact, don't just ..
+- [ ] Measuring everything in terms of impact, don't just descripe your responsiability
 - [ ] Technical knowledge/skills should include
 - [ ] Include only sections/items thay are impressive
 - [ ] No Typos or bad grammar
