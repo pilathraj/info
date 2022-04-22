@@ -15,3 +15,5 @@
 - [ ] No Typos or bad grammar
 
 - Web: https://www.resumemaker.online/
+- https://www.jobscan.co/
+- https://github.com/aneagoie/gitfiti
