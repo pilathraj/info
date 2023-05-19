@@ -2,6 +2,10 @@ import tensorflow as tf
 import numpy as np
 print(tf.__version__) #2.12.0
 
+
+msg = tf.constant('Hello Pilathraj, Wc TensorFlow!')
+tf.print(msg) # Hello Pilathraj, Wc TensorFlow!
+
 #create a matrix
 print("Matrix")
 #m1
@@ -73,7 +77,10 @@ M product:  tf.Tensor(
 
 m4d = tf.linalg.det(m4)
 print("matrix determinant M3: ", m4d) # matrix determinant M3:  tf.Tensor(55.999992, shape=(), dtype=float32)
-
-
-
-
+tf.print("matrix determinant M3: ", m4d) # matrix determinant M3:  55.9999924
+tf.print("M product: ", m_product)
+"""
+M product:  [[9 9 9]
+ [9 9 9]
+ [9 9 9]]
+"""
