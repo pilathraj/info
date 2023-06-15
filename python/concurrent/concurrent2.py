@@ -1,6 +1,6 @@
 import concurrent.futures
 import time
-
+# This not working at concurrently, seems i/o blocking. 
 t1 = None
 def get_a(a):
     time.sleep(1)
