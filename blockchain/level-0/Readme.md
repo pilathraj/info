@@ -50,3 +50,15 @@ Overall, blockchain has the potential to make stock trading more secure, transpa
 - 2020: The COVID-19 pandemic accelerates the adoption of blockchain technology, as businesses look for ways to digitize their operations.
 - 2021: The price of Bitcoin and other cryptocurrencies reach new all-time highs.
 - 2022: Blockchain technology continues to gain traction, with new applications being developed all the time.
+
+### Types of blockchain
+|Type|	Access|	Security|	Efficiency|	Transparency|
+|-----|--------|--------|-----------|-------------|
+|Public|	Open|	High|	Low|	Low|
+|Private|	Closed|	High|	High|	Low|
+|Consortium|	Closed|	High|	High|	Medium|
+
+Example:
+- Public blockchains: Bitcoin, Ethereum, Litecoin, Dogecoin
+- Private blockchains: Hyperledger Fabric, R3 Corda, Quorum
+- Consortium blockchains: TradeLens, B3i, Marco Polo
