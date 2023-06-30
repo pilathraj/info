@@ -62,3 +62,32 @@ Example:
 - Public blockchains: Bitcoin, Ethereum, Litecoin, Dogecoin
 - Private blockchains: Hyperledger Fabric, R3 Corda, Quorum
 - Consortium blockchains: TradeLens, B3i, Marco Polo
+
+### Different Consensus mechanism:
+|Consensus Mechanism|	Advantages|	Disadvantages|
+|-------------------|-----------|--------------|
+|Proof of Work (PoW)|	Very secure|	Very energy-intensive|
+|Proof of Stake (PoS)|	More energy-efficient than PoW|	Not as secure as PoW|
+|Delegated Proof of Stake (DPoS)|	More scalable and efficient than PoW and PoS|	Not as secure as PoW and PoS|
+|Proof of Authority (PoA)|	Secure and efficient|	Not as decentralized as other consensus mechanism|
+
+### Different components of a blockchain:
+- **Block:** A block is a collection of transactions that are grouped together and secured using cryptography. Blocks are added to the blockchain in a chronological order, and each block contains a hash of the previous block. This creates a chain of blocks, which is why it is called a blockchain.
+- **Nodes:** Nodes are computers that participate in the blockchain network. They store the blockchain ledger, validate transactions, and add new blocks to the blockchain.
+- **Consensus mechanism:** A consensus mechanism is a way for nodes to agree on the order of transactions and the state of the blockchain. There are many different consensus mechanisms, such as Proof of Work (PoW), Proof of Stake (PoS), and Delegated Proof of Stake (DPoS).
+- **Cryptography:** Cryptography is used to secure the blockchain network. It is used to encrypt transactions, verify the authenticity of blocks, and prevent unauthorized access to the blockchain ledger.
+- **Distributed ledger:** A distributed ledger is a database that is shared across a network of nodes. This means that no single node has control over the ledger, and all nodes have a copy of the entire ledger.
+- **Transaction:** A transaction is a record of an exchange of value on the blockchain. Transactions can be used to transfer cryptocurrency, record property ownership, or execute smart contracts.
+  
+### Security features in blockchain?
+- **Immutability:** Once a block is added to the blockchain, it cannot be changed or deleted. This is because each block contains a hash of the previous block, and if any data in the block is changed, the hash will change. This makes it very difficult to tamper with the blockchain ledger.
+- **Cryptography:** Blockchain uses cryptography to secure the network. Cryptography is a way of encrypting data so that it can only be decrypted by someone who knows the key. This is used to protect the privacy of transactions and to prevent unauthorized access to the blockchain ledger.
+- **Distributed ledger:** The blockchain ledger is distributed across a network of nodes. This means that there is no single point of failure, and if one node is compromised, the rest of the network will still be able to function.
+- **Consensus mechanism:** The consensus mechanism is a way for nodes to agree on the order of transactions and the state of the blockchain. This ensures that all nodes have the same view of the blockchain ledger, which makes it very difficult to corrupt the ledger.
+These are just some of the security features of blockchain technology. These features make blockchain a very secure technology, and they are one of the reasons why blockchain is being used in so many different applications.
+
+- Here are some additional security features of blockchain technology:
+
+- **Transparency:** The blockchain ledger is public, which means that anyone can view the transactions that have been recorded on the blockchain. This transparency makes it very difficult to commit fraud or other malicious activities on the blockchain.
+- **Auditability:** The blockchain ledger is auditable, which means that anyone can verify the authenticity of transactions and the state of the blockchain. This auditability makes it very difficult to hide fraudulent or malicious activities on the blockchain.
+- **Reliability:** The blockchain ledger is very reliable, as it is not controlled by any single entity. This makes it very difficult to disrupt or bring down the blockchain network.
