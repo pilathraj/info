@@ -21,15 +21,15 @@ print(type(arr)) # <class 'numpy.ndarray'>
 print(np.__version__)
 ```
 
-### create multi dimension array
+### Create multi-dimension array
 Sample program:
 ```python
 import numpy as np
 
-a = np.array(42)
-b = np.array([1, 2, 3, 4, 5])
-c = np.array([[1, 2, 3], [4, 5, 6]])
-d = np.array([[[1, 2, 3], [4, 5, 6]], [[1, 2, 3], [4, 5, 6]]])
+a = np.array(42)  # 0
+b = np.array([1, 2, 3, 4, 5]) # 1
+c = np.array([[1, 2, 3], [4, 5, 6]]) #2
+d = np.array([[[1, 2, 3], [4, 5, 6]], [[1, 2, 3], [4, 5, 6]]]) #3
 
 print(a.ndim)
 print(b.ndim)
