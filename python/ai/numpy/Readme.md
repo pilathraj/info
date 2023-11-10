@@ -30,9 +30,11 @@ a = np.array(42)  # 0
 b = np.array([1, 2, 3, 4, 5]) # 1
 c = np.array([[1, 2, 3], [4, 5, 6]]) #2
 d = np.array([[[1, 2, 3], [4, 5, 6]], [[1, 2, 3], [4, 5, 6]]]) #3
+e = np.array([1,2,3], ndmin=5) # 5
 
 print(a.ndim)
 print(b.ndim)
 print(c.ndim)
 print(d.ndim)
+print(e.ndmin)
 ```
