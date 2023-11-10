@@ -4,7 +4,7 @@
 
 ### Selling point
 - 50x faster than Python list.
-- NumPy aims to provide an array object that is 50x faster than 50x.
+- NumPy aims to provide an array object that is 50x faster than a Python list.
 - Array object in numpy is called 'ndarray'
 
 ### Why Numpy is faster?
