@@ -1,5 +1,7 @@
 // https://www.hackerrank.com/challenges/between-two-sets/problem?isFullScreen=true
 
+// https://studyalgorithms.com/array/hackerrank-between-two-sets/
+
 func gcd(a int32, b int32) int32{
     
     for b !=0{
