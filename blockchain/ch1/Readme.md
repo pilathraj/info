@@ -33,4 +33,17 @@
    - ie. 21000 gas @ 1 GWEI per gas = 21000 GWEI
    - Gas Price is based off the "demand" of the blockchanin.
    - The more people want to make transcations, the higher the gas price and therefore the higher the transcation fees.
+
+### urls 
+etherscan.io Get transaction details
+
+https://faucet.trade/megaeth-testnet-eth-faucet
+
+https://www.megaexplorer.xyz/
+
+https://docs.megaeth.com/infra
+
+https://testnet.megaeth.com/#3
+
+
   
