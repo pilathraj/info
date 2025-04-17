@@ -45,5 +45,11 @@ https://docs.megaeth.com/infra
 
 https://testnet.megaeth.com/#3
 
+https://andersbrownworth.com/blockchain/
+
+### Concepts
+- **Hash**: A unique fixed length string, meant to identify a piece of data. They are created by placing said data into a "hash function".
+- **Genesis Block**: The first block in a blockchanin
+
 
   
