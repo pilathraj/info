@@ -45,11 +45,24 @@ https://docs.megaeth.com/infra
 
 https://testnet.megaeth.com/#3
 
-https://andersbrownworth.com/blockchain/
+**Demo** : 
+- https://andersbrownworth.com/blockchain/
+ -     https://andersbrownworth.com/blockchain/public-private-keys/keys
 
 ### Concepts
 - **Hash**: A unique fixed length string, meant to identify a piece of data. They are created by placing said data into a "hash function".
 - **Genesis Block**: The first block in a blockchanin
+- **Hash Algorithm**: A function that computes data into a unique hash.
+- **Minining**: The process of finding the solution to the blockchain problem.
+- In our example, the problem was to find a hash that starts with 0000 zeros.
+- Nodes get paid for the mining blocks
+- **Decentralized**: No single point of authority.
+- **Nonce**:
+- A number used once to find the solution to the blockchain problem.
+- It's also used to define the transcation number for an account/address.
+- **Private Key**: Only known to the key holder, it's used to sign transactions.
+- **Public Key**: Is derived from your private key, Anyone can see it, and use it to verify that a transation came from you.
+- 
 
 
   
