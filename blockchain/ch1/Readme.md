@@ -46,8 +46,8 @@ https://docs.megaeth.com/infra
 https://testnet.megaeth.com/#3
 
 **Demo** : 
-- https://andersbrownworth.com/blockchain/
- -     https://andersbrownworth.com/blockchain/public-private-keys/keys
+-   https://andersbrownworth.com/blockchain/
+-   https://andersbrownworth.com/blockchain/public-private-keys/keys
 
 ### Concepts
 - **Hash**: A unique fixed length string, meant to identify a piece of data. They are created by placing said data into a "hash function".
@@ -62,7 +62,33 @@ https://testnet.megaeth.com/#3
 - It's also used to define the transcation number for an account/address.
 - **Private Key**: Only known to the key holder, it's used to sign transactions.
 - **Public Key**: Is derived from your private key, Anyone can see it, and use it to verify that a transation came from you.
-- 
+- **Signing a transactions**: A one way process, someone with a private key signs a transaction by their private key being hashed with their transaction data.
+- Anyone can then verify this new transaction hask with your public key.
+- Private key |||| > Public Key > Address
+- **Node**: A single instance in a decentralized network,
+- Anyone can join the networks.
+- Blockchanins are resilient
+- Blockchain nodes keep lists of the transactions that occur.
+- **Consensus**:
+- Consensus is the mechanism used to agree on the state of a blockchain.
+    1. Chain Selection
+    1. Sybil Resistance : two types
+         - **POW**: Very very Computative expansive. Miner, Proof of work used a lot of energy.
+         - **POS**: Validators   . 
+ -  **Block Confirmations**:
+ -  **Transaction fee:**
+ -  **Block Reward**:
+ -  Gas fee paid by the initiator of the transcations.
+ -   **Sybil Attack**: Single node 
+ -   **51% Attack**:
+ -   **Longest Chain Rule**:
+ -   **Randomness**
+ -   **Scalability**
+ -   **Sharding** and **Rollup**-Increasing no of transcations. Solve the scalability issue on layer 1.
+ -   **Layer1**: Base layer of blockchain implementation
+ -   **Layer2**: Any application built on top of a layer 2
+ -    
+ -  
 
 
   
