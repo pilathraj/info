@@ -4,10 +4,9 @@
 $ curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
 rustc --version # rustc 1.86.0 (05f9846f8 2025-03-31)
 ```
-### hello world
+### hello World Program save as main.rs
 
 ```rust
-# save as main.rs
 fn main(){
 println!("Hello Pilathraj, welcome to Rust world");
 }
