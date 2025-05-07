@@ -43,7 +43,6 @@ fn main() {
 
     loop {
         println!("Please input your guess.");
-        // x = 5; // This will cause an error because x is immutable
         let mut guess = String::new();
         
         io::stdin()
