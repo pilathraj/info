@@ -81,5 +81,13 @@ fn main() {
         
     }
     println!("Value of x is {x}"); // 6
+    let spaces = "   ";
+    println!("Value of spaces is {spaces}"); // 
+    let spaces = spaces.len(); 
+    println!("Value of spaces is {spaces}"); // 3
+    
+    let mut s = "  ";
+    //s =s.len(); // expected `&str`, found `usize`
+    println!("Value of s is {s}"); // 2
 ```
 
