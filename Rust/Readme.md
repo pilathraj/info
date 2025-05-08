@@ -11,7 +11,7 @@ fn main(){
 println!("Hello Pilathraj, welcome to Rust world");
 }
 ```
-### run
+### Run
 ```rust
 rustc main.rs
 ./main # Hello Pilathraj, welcome to Rust world
@@ -63,6 +63,23 @@ fn main() {
     }
 
 }
-
+```
+### Variables 
+```rust
+    println!("Hello, world!");
+    const PI :f64 = 3.14; // Constants
+    println!("PI is {}", PI); // 3.14
+    let x = 5;
+    //x = 24; // cannot assign twice to immutable variable
+    println!("Value of x is {x}");
+    let x = x+1; // Shadowing with let
+    println!("Value of x is {x}"); // 6
+    
+    {
+        let x = x*2; // within block scope
+        println!("Value of x is {x}"); // 12
+        
+    }
+    println!("Value of x is {x}"); // 6
 ```
 
