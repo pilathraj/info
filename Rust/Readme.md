@@ -116,7 +116,7 @@ fn main() {
 let t = true;
 let f :bool = false;
 ```
-   -**Character Type**
+   - **Character Type**
 ```rs
     let c = 'z';
     let z: char = 'ℤ'; // with explicit type annotation
