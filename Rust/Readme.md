@@ -93,7 +93,7 @@ fn main() {
 ### Data Types
 #### Scalar Types:
    - **Integer Types**
-
+   
    |Length|Signed|Unsigned|
    |-----|-------|---------|
    |8-bit |	i8	|u8|
@@ -102,6 +102,27 @@ fn main() {
    |64-bit|	i64	|u64|
    |128-bit|	i128|u128|
    |arch	|isize	|usize|
+
+
+   - **Floating-Point Types**
+   
+   |Length|Signed| |
+   |-----|-------|-|
+   |32-bit	|f32	||
+   |64-bit|	f64	|default|
+
+   - **Boolean Type**
+```rs
+let t = true;
+let f :bool = false;
+```
+   -**Character Type**
+```rs
+    let c = 'z';
+    let z: char = 'ℤ'; // with explicit type annotation
+    let heart_eyed_cat = '😻';
+```
+#### Compound Types
    
 3. ****
 4. 
