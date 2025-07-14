@@ -7,4 +7,5 @@
     - eg - King - 2,5, Man - 1,3
     - **AI used multiple dimensions**. not just x,y.
     - Translating data into meaningful numerical representations.
-    -   
+### What is RAG
+ - Retrieval Augmented Generation
