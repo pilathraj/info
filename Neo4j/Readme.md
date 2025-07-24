@@ -47,3 +47,82 @@ CREATE
 (TheCompany)-[:EMPLOYS{type:"temp",salary:50000}] -> (BradJ),
 (TheCompany)-[:EMPLOYS{type:"temp",salary:50000}] -> (SandraJ)
 ```
+
+### Query examples: 
+```cypher
+MATCH (m:Movie {title: "Toy Story"})
+RETURN m.title AS title, m.plot AS plot;
+
+MATCH (m:Movie {title: "Toy Story"})
+RETURN m.title AS title, m.plot AS plot, m.plotEmbedding;
+```
+###  Vector index
+```cypher
+LOAD CSV WITH HEADERS
+FROM 'https://data.neo4j.com/rec-embed/movie-plot-embeddings-1k.csv'
+AS row
+MATCH (m:Movie {movieId: row.movieId})
+CALL db.create.setNodeVectorProperty(m, 'plotEmbedding', apoc.convert.fromJsonList(row.embedding));
+
+CREATE VECTOR INDEX moviePlots IF NOT EXISTS
+FOR (m:Movie)
+ON m.plotEmbedding
+OPTIONS {indexConfig: {
+ `vector.dimensions`: 1536,
+ `vector.similarity_function`: 'cosine'
+}};
+```
+### Querying Vector Indexes
+```cypher
+CALL db.index.vector.queryNodes(
+    indexName :: STRING,
+    numberOfNearestNeighbours :: INTEGER,
+    query :: LIST<FLOAT>
+) YIELD node, score
+```
+example: Querying Similar Movie Plots
+```cypher
+MATCH (m:Movie {title: 'Toy Story'})
+CALL db.index.vector.queryNodes('moviePlots', 6, m.plotEmbedding)
+YIELD node, score
+RETURN node.title AS title, node.plot AS plot, score
+```
+### Generate Embeddings
+```cypher
+WITH genai.vector.encode(
+    "Text to create embeddings for",
+    "OpenAI",
+    { token: "sk-..." }) AS embedding
+RETURN embedding
+```
+example: Generate a Plot Embedding
+```cypher
+WITH genai.vector.encode(
+    "A mysterious spaceship lands Earth",
+    "OpenAI",
+    { token: "sk-..." }) AS myMoviePlot
+CALL db.index.vector.queryNodes('moviePlots', 6, myMoviePlot)
+YIELD node, score
+RETURN node.title, node.plot, score
+```
+
+### Graph-Enhanced Vector Search 
+
+```cypher
+// Search for movie plots using vector search
+WITH genai.vector.encode(
+    "A mysterious spaceship lands Earth",
+    "OpenAI",
+    { token: "sk-..." }) AS myMoviePlot
+CALL db.index.vector.queryNodes('moviePlots', 6, myMoviePlot)
+YIELD node, score
+
+// Traverse the graph to find related actors, genres, and user ratings
+MATCH (node)<-[r:RATED]-()
+RETURN
+  node.title AS title, node.plot AS plot, score AS similarityScore,
+  collect { MATCH (node)-[:IN_GENRE]->(g) RETURN g.name } as genres,
+  collect { MATCH (node)<-[:ACTED_IN]->(a) RETURN a.name } as actors,
+  avg(r.rating) as userRating
+ORDER BY userRating DESC
+```
