@@ -126,3 +126,20 @@ RETURN
   avg(r.rating) as userRating
 ORDER BY userRating DESC
 ```
+
+## Popular GenAI Frameworks for Neo4j
+**LangChain (Python)** - A leading open-source framework for building LLM-powered applications, with strong support for Neo4j as a vector store and knowledge graph.
+
+**LangChainJS** - The JavaScript/TypeScript version of LangChain, enabling GenAI workflows in Node.js and browser environments.
+
+**LlamaIndex** - A data framework for connecting LLMs to external data, with connectors for Neo4j to support RAG and knowledge graph use cases.
+
+**Spring AI** - A Spring ecosystem project for integrating AI capabilities into Java applications, including Neo4j support.
+
+**Langchain4j** - A Java version of LangChain, supporting Neo4j integration for LLM and RAG workflows.
+
+**Haystack** - An open-source framework for building search and question-answering systems, with Neo4j integration for graph-based retrieval.
+
+**Semantic Kernel** - A Microsoft open-source orchestration library for AI workflows, supporting Neo4j as a data source.
+
+**DSPy** - A framework for programming and optimizing LLM pipelines, with Neo4j connectors.
