@@ -1,11 +1,13 @@
-## AI - Learn RAG
-### Embedding
-  - Embedding is a mathematical concept that refers to placing one objects into a different space.
-  - Hello, World ---> set of numbers
-**Vectors**
-    - x,y eg - Cat - 4.5,12.2, Kitten  -5.1, 12.1
-    - eg - King - 2,5, Man - 1,3
-    - **AI used multiple dimensions**. not just x,y.
-    - Translating data into meaningful numerical representations.
-### What is RAG
- - Retrieval Augmented Generation
+# AI learning
+1) high school maths 
+2) data science 
+3) machine learning 
+4)  deep learning 
+5) python 
+6)  generative AI 
+7) LLM 
+8) prompt engineering 
+9)RLHF
+10)RAG 
+11) Evaluating & optimizing 
+12)  Ethics
