@@ -135,3 +135,57 @@ SELECT	cte.dt,
         COALESCE(sales.num_sales, ROUND((LAG(sales.num_sales) OVER() + LEAD(sales.num_sales) OVER())/2)) AS sales_estimate
 FROM	cte LEFT JOIN sales ON cte.dt = sales.dt;
 ```sql
+
+
+## Window functions
+```sql
+CREATE TABLE baby_names (
+    Gender VARCHAR(10),
+    Name VARCHAR(50),
+    Total INT
+);
+
+INSERT INTO baby_names (Gender, Name, Total) VALUES
+('Girl', 'Ava', 95),
+('Girl', 'Emma', 106),
+('Boy', 'Ethan', 115),
+('Girl', 'Isabella', 100),
+('Boy', 'Jacob', 101),
+('Boy', 'Liam', 84),
+('Boy', 'Logan', 73),
+('Boy', 'Noah', 120),
+('Girl', 'Olivia', 100),
+('Girl', 'Sophia', 88);
+
+-- 1. View table
+select * from baby_names bn;
+
+-- 2. Order by popularity 
+select * from baby_names bn order by bn.Total desc;
+
+select bn.Gender, bn.Name, bn.Total, ROW_NUMBER() Over(order by total DESC) as popularity 
+from baby_names bn;
+
+select bn.Gender, bn.Name, bn.Total, ROW_NUMBER() Over() as popularity 
+from baby_names bn order by total DESC;
+
+select bn.Gender, bn.Name, bn.Total, ROW_NUMBER() Over(order by total DESC) as popularity, 
+RANK() Over(order by total DESC) as popularity_R,
+DENSE_RANK() Over(order by total DESC) as popularity_D
+from baby_names bn;
+
+-- Modifing window
+
+select bn.Gender, bn.Name, bn.Total, ROW_NUMBER() Over(Partition by Gender order by total DESC) as popularity, 
+RANK() Over(Partition by Gender order by total DESC) as popularity_R,
+DENSE_RANK() Over(Partition by Gender order by total DESC) as popularity_D
+from baby_names bn;
+
+-- What are the top 3 most popular name by each Gender
+select * from 
+(select bn.Gender, bn.Name, bn.Total, ROW_NUMBER() 
+Over(Partition by Gender Order by total DESC)
+as popularity
+from baby_names bn) as popularity_name 
+where popularity_name.popularity <=3;
+```
