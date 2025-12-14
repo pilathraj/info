@@ -166,8 +166,6 @@ select * from baby_names bn order by bn.Total desc;
 select bn.Gender, bn.Name, bn.Total, ROW_NUMBER() Over(order by total DESC) as popularity 
 from baby_names bn;
 
-select bn.Gender, bn.Name, bn.Total, ROW_NUMBER() Over() as popularity 
-from baby_names bn order by total DESC;
 
 select bn.Gender, bn.Name, bn.Total, ROW_NUMBER() Over(order by total DESC) as popularity, 
 RANK() Over(order by total DESC) as popularity_R,
