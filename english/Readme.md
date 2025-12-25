@@ -8,3 +8,6 @@
 
 ### Adverb
 1. **Here** is an adverb that indicates a location or place.
+
+### Modal verb
+1. **Can** is a modal verb used to express abilities or possibilities. It indicates what someone is capable of doing.
