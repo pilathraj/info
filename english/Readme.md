@@ -14,4 +14,8 @@
 
 ### Basics
 - **Some** is often used to indicate an unspecified amount or number.
-- **Of course** is used to express **strong agreement** or to indicate that something is obvious
+- **Of course** is used to express **strong agreement** or to indicate that something is obvious.
+- In questions, **any** is often used to inquire if there is **at least one** of something.
+- **Down the street** means further along the street or a **short distance away on the same street**.
+- The expression **look who's here** is often used when you notice someone arriving or entering a place, especially when it's unexpected or a pleasant surprise.
+- **How is everything?** is a way to ask someone how they are and how things are going in their life.
