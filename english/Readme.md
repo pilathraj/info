@@ -7,6 +7,9 @@
 5. **It** is often used to talk about the weather, the time, dates, and distances etc..,
 6. **He** is a pronoun used to refer to a male person.
 7. **She** is a pronoun used to refer to a female person.
+8. **Our** is a possessive pronoun. It shows that something belongs to or is related to a group that includes the speaker.
+
+
 
 ### Adverb
 1. **Here** is an adverb that indicates a location or place.
@@ -18,6 +21,8 @@
    |Pronouns|to be verb|
    |---------|----------|
    |He,She, It (third person singular)   |**is**|
+   ||**are**|
+   |I|**am**|
 
 ### Basics
 - **Some** is often used to indicate an unspecified amount or number.
