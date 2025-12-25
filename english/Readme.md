@@ -11,3 +11,7 @@
 
 ### Modal verb
 1. **Can** is a modal verb used to express abilities or possibilities. It indicates what someone is capable of doing.
+
+### Basics
+- **Some** is often used to indicate an unspecified amount or number.
+- **Of course** is used to express **strong agreement** or to indicate that something is obvious
