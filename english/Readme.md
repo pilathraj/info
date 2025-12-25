@@ -5,6 +5,8 @@
 3. **These** - Plural used to refer the near by items.
 4. **Those** - Plural used to refer the items far away.
 5. **It** is often used to talk about the weather, the time, dates, and distances etc..,
+6. **He** is a pronoun used to refer to a male person.
+7. **She** is a pronoun used to refer to a female person.
 
 ### Adverb
 1. **Here** is an adverb that indicates a location or place.
