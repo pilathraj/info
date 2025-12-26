@@ -8,6 +8,9 @@
 6. **He** is a pronoun used to refer to a male person.
 7. **She** is a pronoun used to refer to a female person.
 8. **Our** is a possessive pronoun. It shows that something belongs to or is related to a group that includes the speaker.
+9. **I** -
+10. **You** -
+11. **They** -
 
 
 
