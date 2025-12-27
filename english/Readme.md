@@ -20,6 +20,12 @@
 ### Modal verb
 1. **Can** is a modal verb used to express abilities or possibilities. It indicates what someone is capable of doing.
 
+### Auxiliary Verb
+| to be| auxiliary verb|
+|------|---------------|
+| I, You, We, they| Do|
+| He, She, It| Does|
+
 ## To be verb
    |Pronouns|to be verb|
    |---------|----------|
@@ -46,6 +52,9 @@
    - Weekly indicates something that happens once every week.
    - Monthly describes something that happens once every month.
    - Yearly (or annually) describes something that happens once every year.
+- In a conversation, when you agree with someone but want to add more information, you can use **Yes, but...** to continue your point. For example:
+   - Person 1: Will you join the team meeting?
+   - Person 2: Yes, but only for the first 30 minutes. - This person agrees, but can't stay the whole time.
  
 ## Tense
 ### 1. Present Perfect
