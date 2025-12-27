@@ -37,3 +37,24 @@
 - By adding **-er** to a verb, you **create a noun** that describes a **person's job.** It doesn't apply to all professions but you'll see this pattern in many. Example, a programmer is someone who programs, a developer is someone who develops software or systems. Another example is a designer, who is a person that designs websites, graphics, or products.
 - Program is a word that ends in **consonant, vowel, consonant** (-ram). In those cases what you want to do is to repeat the last consonant, in this case m, and add -er, **Programmer**.
 - **Is there** and **are there** are used at the beginning of questions to ask about the existence or presence of something.
+- Practicing the correct usage of is there and are there in questions is crucial. Remember, is there is used for singular nouns and are there for plural nouns. This task will help you understand how to form questions correctly using these phrases.
+- **How about...?** is often used to ask for information about a topic or to make a suggestion. For example:
+   - How about the coffee here? - This asks for someone's opinion about the coffee.
+   - How about the meeting tomorrow? - This asks if there will be a meeting.
+- The suffix **-ly** can be added to words to indicate the frequency of an event. Here's how it applies to different time periods:
+   - Daily means it occurs once every day.
+   - Weekly indicates something that happens once every week.
+   - Monthly describes something that happens once every month.
+   - Yearly (or annually) describes something that happens once every year.
+ 
+## Tense
+### 1. Present Perfect
+The **Present Perfect** is a tense used to indicate a link between the present and the past. The time of the action is before now but not specified, and the person using it is usually more interested in the result than in the action itself. For example:
+
+I played this game yesterday. - This is in the **past simple tense**. It states that the action of playing the game happened at a specific time in the past, which is yesterday.
+
+I have played this game before. - This is in the **present perfect tense**. It states that the action of playing the game happened at an unspecified time in the past.
+
+I've played this game before. - This sentence is also in the present perfect tense, using the contraction I've for I have. Like the previous example, it states that the action of playing the game happened at an unspecified time in the past.
+
+
