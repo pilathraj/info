@@ -69,6 +69,7 @@
 - **Usually** is a word that suggests that something happens often but is not constant.
    - When usually is used with the verb to be, it is placed after the verb.
    - For example, She is usually on time for meetings.
+- The word **on** is a **preposition** that you can use to talk about specific days of the week, dates, and parts of the day (only when you mean a specific day) when something takes place. For example, on Tuesday, on July 4th, or on Friday night.
  
 ## Tense
 ### 1. Present Perfect
