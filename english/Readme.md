@@ -58,6 +58,14 @@
 - These phrases can show that you agree with someone's point, or they can help you return to a topic that was mentioned earlier but not fully discussed. For example:
    - **For sure.** - Use this to agree in a friendly, informal way.
    - **Back to...** - Use this to return to a topic that was mentioned before.
+- You can use **want to** to show desire or plans. For example:
+   - I want to visit Paris next summer. - This means you hope to go there in the future.
+   - He wants to learn guitar. - This means he plans or hopes to play guitar someday.
+- The expression **only if** is used to set a condition for something to happen. It's like saying "this will happen if that happens". It's a way of making an agreement where one action depends on another.
+   - For example, your friend might say, I'll go out only if it doesn't rain. It means they will go out but the weather must be good - no rain.
+- **Personality Questions?**
+   - What is he/she like? is used to ask about personality traits, such as being kind, intelligent, or funny.
+   - What does he/she look like? is the question you would ask if you want to know about how someone looks, for example, if they are tall, have blonde hair, or wear glasses.
  
 ## Tense
 ### 1. Present Perfect
