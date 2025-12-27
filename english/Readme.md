@@ -17,6 +17,18 @@
 ### Adverb
 1. **Here** is an adverb that indicates a location or place.
 
+|Adverb |	Frequency|
+|-------|------------|
+|Never	|0%|
+|Rarely	|5%|	
+|Seldom	|15%|	
+|Occasionally	|30%|	
+|Sometimes	|50%|
+|Often	|70%|
+|Generally	|80%|
+|Usually	|90%|
+|Always	|100%|
+
 ### Modal verb
 1. **Can** is a modal verb used to express abilities or possibilities. It indicates what someone is capable of doing.
 
@@ -70,7 +82,8 @@
    - When usually is used with the verb to be, it is placed after the verb.
    - For example, She is usually on time for meetings.
 - The word **on** is a **preposition** that you can use to talk about specific days of the week, dates, and parts of the day (only when you mean a specific day) when something takes place. For example, on Tuesday, on July 4th, or on Friday night.
- 
+
+
 ## Tense
 ### 1. Present Perfect
 The **Present Perfect** is a tense used to indicate a link between the present and the past. The time of the action is before now but not specified, and the person using it is usually more interested in the result than in the action itself. For example:
