@@ -64,8 +64,11 @@
 - The expression **only if** is used to set a condition for something to happen. It's like saying "this will happen if that happens". It's a way of making an agreement where one action depends on another.
    - For example, your friend might say, I'll go out only if it doesn't rain. It means they will go out but the weather must be good - no rain.
 - **Personality Questions?**
-   - What is he/she like? is used to ask about personality traits, such as being kind, intelligent, or funny.
-   - What does he/she look like? is the question you would ask if you want to know about how someone looks, for example, if they are tall, have blonde hair, or wear glasses.
+   - **What is he/she like?** is used to ask about personality traits, such as being kind, intelligent, or funny.
+   - **What does he/she look like?** is the question you would ask if you want to know about how someone looks, for example, if they are tall, have blonde hair, or wear glasses.
+- **Usually** is a word that suggests that something happens often but is not constant.
+   - When usually is used with the verb to be, it is placed after the verb.
+   - For example, She is usually on time for meetings.
  
 ## Tense
 ### 1. Present Perfect
