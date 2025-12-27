@@ -55,6 +55,9 @@
 - In a conversation, when you agree with someone but want to add more information, you can use **Yes, but...** to continue your point. For example:
    - Person 1: Will you join the team meeting?
    - Person 2: Yes, but only for the first 30 minutes. - This person agrees, but can't stay the whole time.
+- These phrases can show that you agree with someone's point, or they can help you return to a topic that was mentioned earlier but not fully discussed. For example:
+   - **For sure.** - Use this to agree in a friendly, informal way.
+   - **Back to...** - Use this to return to a topic that was mentioned before.
  
 ## Tense
 ### 1. Present Perfect
