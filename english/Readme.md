@@ -82,6 +82,9 @@
    - When usually is used with the verb to be, it is placed after the verb.
    - For example, She is usually on time for meetings.
 - The word **on** is a **preposition** that you can use to talk about specific days of the week, dates, and parts of the day (only when you mean a specific day) when something takes place. For example, on Tuesday, on July 4th, or on Friday night.
+- The preposition **in** is used for **months, years, centuries, and long periods.** For example, We will update the software in July, I started learning coding in 2022, I like to work in the morning.
+- The preposition **on** is used for **days and dates.** For example, Our team meets on Mondays, The coding class is on April 10th, I finished the task on the last day.
+- The preposition **at** is used to specify **exact times of the day**. For example, Our meeting is at 9 AM, I begin coding at 10 AM, We have lunch at 12 PM.
 
 
 ## Tense
