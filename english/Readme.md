@@ -85,6 +85,9 @@
 - The preposition **in** is used for **months, years, centuries, and long periods.** For example, We will update the software in July, I started learning coding in 2022, I like to work in the morning.
 - The preposition **on** is used for **days and dates.** For example, Our team meets on Mondays, The coding class is on April 10th, I finished the task on the last day.
 - The preposition **at** is used to specify **exact times of the day**. For example, Our meeting is at 9 AM, I begin coding at 10 AM, We have lunch at 12 PM.
+- The expression stay on track is often used to talk about continuing to do the right thing in order to achieve a goal. It's a motivational phrase used in both personal and professional contexts. For example:
+   - He needs to stay on track with the project. - He needs to keep working correctly and not lose focus.
+   - They stayed on track and reached their goal. - They kept focused and achieved what they wanted.
 
 
 ## Tense
