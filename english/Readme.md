@@ -29,6 +29,17 @@
 |Usually	|90%|
 |Always	|100%|
 
+
+|Adverb|	Meaning|
+|-----|---------|
+|Always|	Something happens all the time.|
+|Usually|	Something happens occasionally.|
+|Sometimes|	Something happens occasionally.|
+|Often|	Something happens frequently.|
+|Rarely|	Something seldom happens.|
+|Never|	Something does not happen at all.|
+
+
 ### Modal verb
 1. **Can** is a modal verb used to express abilities or possibilities. It indicates what someone is capable of doing.
 
