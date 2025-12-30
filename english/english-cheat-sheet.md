@@ -1,7 +1,7 @@
 # English Grammar Cheat Sheet
 
 ## Table of Contents
-1. [Parts of Speech](#parts-of-speech)
+1. [Parts of Speech](#parts-of-speech) - 8s
 2. [Sentence Structure](#sentence-structure)
 3. [Tenses](#tenses)
 4. [Articles](#articles)
