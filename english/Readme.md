@@ -12,6 +12,13 @@
 10. **You** -
 11. **They** -
 
+|Type|	Examples|
+|----|-----------|
+|Subject|	I, you, he, she, it, we, they|
+|Object|	me, you, him, her, it, us, them|
+|Possessive|	mine, yours, his, hers, ours, theirs|
+|Reflexive|	myself, yourself, himself, herself, itself, ourselves, themselves|
+
 
 
 ### Adverb
