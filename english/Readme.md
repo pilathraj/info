@@ -106,6 +106,10 @@
 - The expression stay on track is often used to talk about continuing to do the right thing in order to achieve a goal. It's a motivational phrase used in both personal and professional contexts. For example:
    - He needs to stay on track with the project. - He needs to keep working correctly and not lose focus.
    - They stayed on track and reached their goal. - They kept focused and achieved what they wanted.
+ 
+- Even though it begins with the question word what, it is not a question but a statement. The structure **What a...** is often used to show strong feelings or recognition about something. For example:
+   - What a surprise! means you feel strongly surprised.
+   - What a beautiful day! means you are showing a strong positive reaction.
 
 
 ## Tense
