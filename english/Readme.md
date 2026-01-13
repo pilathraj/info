@@ -110,6 +110,9 @@
 - Even though it begins with the question word what, it is not a question but a statement. The structure **What a...** is often used to show strong feelings or recognition about something. For example:
    - What a surprise! means you feel strongly surprised.
    - What a beautiful day! means you are showing a strong positive reaction.
+- To comply with means to act according to a rule, order, or request. The verb comply is almost always followed by with to indicate what needs to be followed. For example:
+
+      - Companies must comply with environmental regulations. - This means businesses must follow rules about protecting the environment.
 
 
 ## Tense
