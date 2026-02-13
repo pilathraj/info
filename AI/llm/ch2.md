@@ -15,3 +15,10 @@
    - Memory
    - Commnication
 - Uers -> Prompts -> LLM -> Tools -> Reflection.
+
+### Types of Agentic AI
+1. Simple Reflex Agents
+2. Model-based Reflex Agents
+3. Goal based Agents
+4. Learning Agents
+5. Utility based Agents
