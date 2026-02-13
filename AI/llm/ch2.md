@@ -44,3 +44,7 @@
 1. Pre defined Prompt based Apporaches
 2. React
 3. Rewoo
+
+### LLM Security
+1. Jailbreak attach
+2. Universal transformer model
