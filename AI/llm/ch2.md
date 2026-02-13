@@ -46,5 +46,6 @@
 3. Rewoo
 
 ### LLM Security
-1. Jailbreak attach
-2. Universal transferable suffix.
+1. Jailbreak attack
+2. Universal transferable suffix added to Jailbreak attack
+3. Noise pattern image added into the prompt and do Jailbreak attack.
