@@ -32,3 +32,15 @@
 6. Self Critique
 7. HITLP
 8. Observability
+9. Data Privacy
+10. Data Governance
+
+### Use cases in the Marketing
+1. Lead Generation
+2. Campaign Management
+3. Personalization.
+
+### Agentic AI Apporaches
+1. Pre defined Prompt based Apporaches
+2. React
+3. Rewoo
