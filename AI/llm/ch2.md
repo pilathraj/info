@@ -49,3 +49,5 @@
 1. Jailbreak attack
 2. Universal transferable suffix added to Jailbreak attack
 3. Noise pattern image added into the prompt and do Jailbreak attack.
+4. Prompt injection attacks.
+5. Backdoor attacks.
