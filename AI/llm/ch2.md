@@ -7,3 +7,10 @@
 ### Stages
   1. Pre tranining stage
   2. Fine tunning stage.
+
+## Agentic AI 
+- Agent AI automates using the resoning power of large language models(LLMs) to run the complex tasks by breaking them into simple tasks.
+- Charateristics:
+   - Reasoning
+   - Memory
+   - Commnication
