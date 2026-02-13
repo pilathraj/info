@@ -22,3 +22,13 @@
 3. Goal based Agents
 4. Learning Agents
 5. Utility based Agents
+
+### Landscape
+1. Prompts
+2. LLMs
+3. Tools
+4. Datastore - Vector Database
+5. Memory
+6. Self Critique
+7. HITLP
+8. Observability
