@@ -47,4 +47,4 @@
 
 ### LLM Security
 1. Jailbreak attach
-2. Universal transformer model
+2. Universal transferable suffix.
