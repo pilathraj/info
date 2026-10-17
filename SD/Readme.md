@@ -27,7 +27,7 @@
     - Read and write Radio?
     - Latency target 200ms or sub 100 ms?
     - Acceptable downtime?
-- Does this scope and these requirements make sense before I move forward?
+- **Check In:** Does this scope and these requirements make sense before I move forward?
   
 ### 2. Design Core Data & APIs
 - The Model what you are storing & how clients will interact with your system.
@@ -48,13 +48,21 @@
 ### 3. High Level Architecture
 Design the components and show how data flows through them. Draw while you talk.
 - Components
-      - Database  - Persistent writes and Consistency
-      - API Server - Routes reads and writes
-      - Cache Layer   - Serves Read with TTL
-      - Load Balancer - Received the client request and distribute it.
-  - Walk through
-        - Data flows all the above components
-        - TTL and data invalidations
-        - Explain Design trade off - Consistency, Availabilities and fault tolerance. 
+  - Database  - Persistent writes and Consistency
+  - API Server - Routes reads and writes
+  - Cache Layer   - Serves Read with TTL
+  - Load Balancer - Received the client request and distribute it.
+- Walk through
+    - Data flows all the above components
+    - TTL and data invalidations
+    - Explain Design trade off - Consistency, Availabilities and fault tolerance.
+### 4. Scaling & Edge Cases
+    - This is the clearest signal separating mid-level from the senior engineers.
+    - Bottlenecks, Scale and Reliability.
+    - Single point failures - Find them and propose the solution
+    - Fallback and failures - Cache failure fallbacks, stale data over errors and partition handling.
+    - Redundancy - Multi-AZ replicas, auto scaling and distributed cache with replication.
+    - Monitoring - API lantency P50/P95/P99, error rate, Queue depth, Structured logs with request ids.
+    - **Check in:** Are there specific failure scenarios you'd like me to dig into? 
        
 
