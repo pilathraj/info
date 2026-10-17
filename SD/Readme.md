@@ -57,12 +57,22 @@ Design the components and show how data flows through them. Draw while you talk.
     - TTL and data invalidations
     - Explain Design trade off - Consistency, Availabilities and fault tolerance.
 ### 4. Scaling & Edge Cases
-    - This is the clearest signal separating mid-level from the senior engineers.
-    - Bottlenecks, Scale and Reliability.
-    - Single point failures - Find them and propose the solution
-    - Fallback and failures - Cache failure fallbacks, stale data over errors and partition handling.
-    - Redundancy - Multi-AZ replicas, auto scaling and distributed cache with replication.
-    - Monitoring - API lantency P50/P95/P99, error rate, Queue depth, Structured logs with request ids.
-    - **Check in:** Are there specific failure scenarios you'd like me to dig into? 
+This is the clearest signal separating mid-level from the senior engineers.
+- Bottlenecks, Scale and Reliability.
+- Single point failures - Find them and propose the solution
+- Fallback and failures - Cache failure fallbacks, stale data over errors and partition handling.
+- Redundancy - Multi-AZ replicas, auto scaling and distributed cache with replication.
+- Monitoring - API lantency P50/P95/P99, error rate, Queue depth, Structured logs with request ids.
+- **Check in:** Are there specific failure scenarios you'd like me to dig into?
+
+### 5. Wrap Up
+Trade off and Extentions
+- Summarize the Key decisions
+    - What did you prioritize
+    - What did you sacrifice
+    - And Explicitly about and why
+
+
+
        
 
