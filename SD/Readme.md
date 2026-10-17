@@ -13,7 +13,7 @@
 4. Practical Depth
 5. Time Management
 
-### 1 Clarify the Requirments
+### 1. Clarify the Requirments
 - Clarify the problems first
 - Don't jump into the designing anything.
 - **Functional requirements**
@@ -29,7 +29,7 @@
     - Acceptable downtime?
 - Does this scope and these requirements make sense before I move forward?
   
-### Design Core Data & APIs
+### 2. Design Core Data & APIs
 - The Model what you are storing & how clients will interact with your system.
 - Data Model
       - The Main entities & Relationship
@@ -44,4 +44,17 @@
        - Pick the database & justify it
        - Mention alternatives considered
        - Walk through the trade-off explicitly.
+
+### 3. High Level Architecture
+Design the components and show how data flows through them. Draw while you talk.
+- Components
+      - Database  - Persistent writes and Consistency
+      - API Server - Routes reads and writes
+      - Cache Layer   - Serves Read with TTL
+      - Load Balancer - Received the client request and distribute it.
+  - Walk through
+        - Data flows all the above components
+        - TTL and data invalidations
+        - Explain Design trade off - Consistency, Availabilities and fault tolerance. 
+       
 
