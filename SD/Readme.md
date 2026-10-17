@@ -11,9 +11,9 @@
 2. Structured Thinking
 3. Technical Judgment
 4. Practical Depth
-5.  Time Management
+5. Time Management
 
-## Clarify the Requirments
+### 1 Clarify the Requirments
 - Clarify the problems first
 - Don't jump into the designing anything.
 - **Functional requirements**
@@ -28,3 +28,20 @@
     - Latency target 200ms or sub 100 ms?
     - Acceptable downtime?
 - Does this scope and these requirements make sense before I move forward?
+  
+### Design Core Data & APIs
+- The Model what you are storing & how clients will interact with your system.
+- Data Model
+      - The Main entities & Relationship
+      - Primary Key, Foreign Key and Indexes
+      - Which data needs strong consistency?
+  - API Design
+      - Main endpoints with request & response formats
+      - Pagination & error handling
+      - Rate limit & versioning
+      - Best Practices
+  - Database Choice
+       - Pick the database & justify it
+       - Mention alternatives considered
+       - Walk through the trade-off explicitly.
+
