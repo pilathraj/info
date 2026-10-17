@@ -12,3 +12,19 @@
 3. Technical Judgment
 4. Practical Depth
 5.  Time Management
+
+## Clarify the Requirments
+- Clarify the problems first
+- Don't jump into the designing anything.
+- **Functional requirements**
+    - What are the main use cases?
+    - What is explicitly out of scope?
+    - Who are the users?
+    - What type of platform we want to building?
+- **Non Functional requirements**
+    - Daily/Monthly users?
+    - Request per seconds
+    - Read and write Radio?
+    - Latency target 200ms or sub 100 ms?
+    - Acceptable downtime?
+- Does this scope and these requirements make sense before I move forward?
